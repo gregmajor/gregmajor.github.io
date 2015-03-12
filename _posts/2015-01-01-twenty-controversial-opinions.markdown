@@ -1,22 +1,22 @@
 ---
-Layout: post_simple
-Title: "Twenty Controversial Opinions"
-Date: 2015-03-12 
+layout: post_simple
+title: "Twenty Controversial Opinions"
+date: 2015-03-12 
 
-Tags:
+tags:
 - programming
 - mac
 - OSX
 - Windows
 ---
 
-I came across a great post over on BlogExchange titled, “20 controversial programming opinions” and before I read more than a few down the list, I decided to jot down my gut reaction to each one. Jump over there and read the original blog post then come back.
+I came across a great post over on BlogExchange titled, "20 controversial programming opinions" and before I read more than a few down the list, I decided to jot down my gut reaction to each one. Jump over there and read the original blog post then come back.
 
-Back? Okay, here’s how it went:
+Back? Okay, here's how it went:
 
-1. Programmers who don’t code in their spare time for fun will never become as good as those that do.
+1. Programmers who don't code in their spare time for fun will never become as good as those that do.
 
-Except for the “never” bit, I completely agree. I suppose it’s possible that someone might emerge from the womb with The Right Stuff (and probably named Bjorn or something), but it’s not very probable. All the best programmers I know are Very Smart People that live and breathe what they do.
+Except for the "never" bit, I completely agree. I suppose it's possible that someone might emerge from the womb with The Right Stuff (and probably named Bjorn or something), but it’s not very probable. All the best programmers I know are Very Smart People that live and breathe what they do.
 
 2. Unit testing won’t help you write good code.
 

@@ -1,9 +1,9 @@
 ---
-Layout: post_simple
-Title: "Developer and Power Users Tool List for Mac"
-Date: 2015-03-12 
+layout: post_simple
+title: "Developer and Power Users Tool List for Mac"
+date: 2015-03-12 
 
-Tags:
+tags:
 - programming
 - mac
 - OSX
