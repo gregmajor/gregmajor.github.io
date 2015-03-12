@@ -1,7 +1,7 @@
-name: ""
+name: "Greg Major's Blog"
 description: ""
 
-url: "http://localhost:4000/"
+url: "http://blog.gregmajor.com/"
 
 paginate: 4
 paginate_path: "page:num"
