@@ -221,7 +221,7 @@ header{
 /*---Main Content----*/
 					
 #main-contents{
-	background-color: #eaebec;
+/*	background-color: #eaebec;*/
 	padding-top:10px; 
 }
 
@@ -520,9 +520,10 @@ header{
 
 #footer-quote{
  	padding:80px 0;
- 	background: url('../img/parallax-bg.jpg') no-repeat;
- 	background-attachment: fixed;
- 	background-position: 50% 50%;
+/* 	background: url('../img/parallax-bg.jpg') no-repeat;*/
+ 	background-color: #143E7B;
+/*    background-attachment: fixed;*/
+/* 	background-position: 50% 50%;*/
  	text-align: center;
  	position: relative;
 }
