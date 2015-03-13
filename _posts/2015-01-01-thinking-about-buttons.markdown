@@ -5,12 +5,10 @@ date: 2015-03-12
 
 tags:
 - programming
-- mac
-- OSX
-- Windows
+- theory
 ---
 
-In Stuart Kauffman’s book, At Home in the Universe, he describes complexity and, in particular, a threshold of complexity that lends itself to software. Kauffman asks the reader to imagine a rug with 1,000 buttons spread out all over it. Our task is to join random buttons with thread and to keep going even if you pick up a button that already has a thread.
+In [Stuart Kauffman](http://en.wikipedia.org/wiki/Stuart_Kauffman)’s book, [At Home in the Universe](http://www.amazon.com/At-Home-Universe-Self-Organization-Complexity/dp/0195111303), he describes complexity and, in particular, a threshold of complexity that lends itself to software. Kauffman asks the reader to imagine a rug with 1,000 buttons spread out all over it. Our task is to join random buttons with thread and to keep going even if you pick up a button that already has a thread.
 
 Initially you’ll have a few isolated pairs. As you keep going, eventually you’ll have fairly significant clusters. Around the 500th time you tie two buttons together, however, something incredible takes place and the buttons form a network. Rather than looking at 1,000 buttons on the rug, we’re suddenly faced with a new and significantly more complex system where tugging a single button may affect many buttons far away.
 
