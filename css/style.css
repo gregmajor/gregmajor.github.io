@@ -72,6 +72,7 @@ header{
 #site-heading .title{
 	font-weight: 700;
     text-transform: uppercase;
+    letter-spacing: 3px;
 /*	color: #dedcdb;*/
 	margin: 0 0 5px 0;
 	font-size: 1.714em;
@@ -101,6 +102,7 @@ header{
 	color: #767777;
 	font-size: 14px;
 	text-transform: uppercase;
+    letter-spacing: 0.05em;
 	font-family: 'Source Sans Pro';
 	padding: 5px;
 	margin-right:12px; 
