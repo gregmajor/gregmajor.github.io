@@ -79,7 +79,7 @@ header{
 }
 
 #site-heading .subtitle{
-	font-weight: 300;
+/*	font-weight: 300;*/
 	color: #143E7B;
 	text-transform: uppercase;
 	margin: 0 0 5px 0;

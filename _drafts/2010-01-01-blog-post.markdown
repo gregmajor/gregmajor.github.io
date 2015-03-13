@@ -1,12 +1,7 @@
 ---
-layout: post_image
-title:  "Another you think water moves fast!"
-date:   2010-02-03 
-tags:
-- blog
-- design
-image_file : "blog/01.jpg"
-
+layout: post_simple
+title:  "This is a pure lorem ipsum post!"
+date:   2012-02-09 
 
 tags:
 - theme
