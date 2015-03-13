@@ -1,9 +1,9 @@
 ---
-Layout: post_simple
-Title: "Thinking About Buttons"
-Date: 2015-03-12 
+layout: post_simple
+title: "Thinking About Buttons"
+date: 2015-03-12 
 
-Tags:
+tags:
 - programming
 - mac
 - OSX

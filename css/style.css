@@ -7,7 +7,7 @@ http://themeforest.net/user/owwwlab/portfolio
 /* Orange d16b19 */
 
 body{
-	font-family: Open Sans', 'sans-serif';
+	font-family: Sans Pro', 'sans-serif';
 	font-size: 15px;
 	line-height: 25px;
 	font-weight: 400;
@@ -100,7 +100,7 @@ header{
 	color: #767777;
 	font-size: 18px;
 	text-transform: uppercase;
-	font-family: 'Open Sans Condensed';
+	font-family: 'Sans Pro';
 	padding: 5px;
 	margin-right:12px; 
 
@@ -188,7 +188,7 @@ header{
 }
 
 #contact-list li a{
-	font-family: 'Open Sans Condensed';
+	font-family: 'Sans Pro';
 	font-size: 30px;
 }
 
