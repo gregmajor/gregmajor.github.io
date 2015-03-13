@@ -71,9 +71,9 @@ header{
 
 #site-heading .title{
 	font-weight: 700;
-	color: #dedcdb;
+/*	color: #dedcdb;*/
 	margin: 0 0 5px 0;
-	font-size: 20px;
+	font-size: 1.714em;
 }
 
 #site-heading .subtitle{
@@ -81,7 +81,7 @@ header{
 	color: #143E7B;
 	text-transform: uppercase;
 	margin: 0 0 35px 0;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 /*---Navigation----*/
@@ -98,7 +98,7 @@ header{
 
 #nav li a{
 	color: #767777;
-	font-size: 18px;
+	font-size: 14px;
 	text-transform: uppercase;
 	font-family: 'Source Sans Pro';
 	padding: 5px;
