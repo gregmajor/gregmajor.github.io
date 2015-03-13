@@ -1,7 +1,7 @@
 ---
 layout: post_simple
 title: "RubyGems SSL Error and Workaround"
-date: 2015-03-12
+date: 2015-03-13
 
 tags:
 - Ruby
