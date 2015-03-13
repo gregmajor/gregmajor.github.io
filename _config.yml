@@ -2,6 +2,7 @@ name: "Greg Major's Blog"
 description: ""
 
 url: "http://blog.gregmajor.com"
+#url: "localhost"
 
 paginate: 4
 paginate_path: "page:num"

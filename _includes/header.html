@@ -4,12 +4,14 @@
         <meta charset="utf-8">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="author" content="Greg Major, http://www.gregmajor.com">
+        
+        <!-- Favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        
         <title>{{ page.title }}</title>
 
-<!--
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
--->
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
         
         <link rel="stylesheet" href="{{site.url}}/css/base.css">
@@ -22,12 +24,14 @@
             </div>
             <div id="site-heading">
                 <h2 class="title">Greg Major</h2>
-                <h3 class="subtitle">Clever tagline goes right here</h3>
+                <h3 class="subtitle">Lies and misinformation about computers and life</h3>
             </div>
             <ul id="nav">
-                 <li class="{% if page.url == '/pages/about/' %}active{% endif %}"><a href="{{site.url}}/pages/about">About</a></li>
-                 <li class="{% if page.url == '/' %}active{% endif %}"><a href="{{site.url}}/index.html">Blog</a></li>
-                 <li><a href="#" id="contact-section">Contact</a></li>
+                <li><a href="http://gregmajor.com/#section-about">About</a></li>
+<!--            <li class="{% if page.url == '/pages/about/' %}active{% endif %}"><a href="{{site.url}}/pages/about">About</a></li>-->
+                <li class="{% if page.url == '/' %}active{% endif %}"><a href="{{site.url}}/index.html">Blog</a></li>
+                <li><a href="http://gregmajor.com/#section-contact">Contact</a></li>
+<!--            <li><a href="#" id="contact-section">Contact</a></li>-->
             </ul>
             <div id="contact-wrapper">
                 <div id="contact-content">

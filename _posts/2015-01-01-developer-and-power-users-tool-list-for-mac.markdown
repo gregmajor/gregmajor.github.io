@@ -71,7 +71,7 @@ Interested? [My dotfiles can be found here](https://github.com/gregmajor/dotfile
 ### Web Stuff
 
 - [GitHub](https://www.github.com/) - When it comes to online Git hosts, it's hard to argue that there's any more popular than GitHub.
-- [GitHub Pages](https://pages.github.com/) - What do you get when you combine GitHub and [Jekyll](http://jekyllrb.com/)? You get a whole crate full of awesome!
+- [GitHub Pages](https://pages.github.com/) - What do you get when you combine GitHub and [Jekyll](http://jekyllrb.com/)? You get a whole crate full of awesome! If you've got a custom domain and the GitHub Pages docs aren't quite enough to get you up and running, check out [this great guide](http://www.hongkiat.com/blog/github-with-custom-domain/).
 - [Envato Market](http://market.envato.com/) - Need digital content? WordPress themes? HTML5 skeletons? How about some stock images or audio? Whatever you need, you're likely to find something on one of Envato's sub-sites such as ThemeForest or GraphicRiver. You'll feel better about paying the artist, too.
 
 So there you have it! Hit me up on Facebook or Twitter and let me know what I'm missing!
