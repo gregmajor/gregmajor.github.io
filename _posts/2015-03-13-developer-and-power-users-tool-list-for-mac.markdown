@@ -58,15 +58,15 @@ Interested? [My dotfiles can be found here](https://github.com/gregmajor/dotfile
 - [Git for Windows](https://msysgit.github.io/) - Git is practically synonymous with distributed version control. It's one of the first three things that I install.
 - [Fiddler](http://www.telerik.com/fiddler) - Nothing beats Fiddler for debugging HTTP traffic. Like many debugging tools, it can take some effort to learn, but it's well worth your time if your serious about web development.
 - [Visual Studio](https://www.visualstudio.com/) - Ah, the IDE we love and hate. Sure, it's a beast and damned expensive, but it is THE standard for .NET development. Looking for an alternative, though? Give [SharpDevelop](http://www.icsharpcode.net/OpenSource/SD/Default.aspx) a whirl. It's been around a long time and has some neat features.
+- [Kaxaml](http://www.kaxaml.com/) - If you're doing any WPF work then Kaxaml is a great tool to have in your bag. Think of it as a notepad for XAML.
+- [Snoop](http://snoopwpf.codeplex.com/) - If you need to dig into running XAML there's no better way to do it than with Snoop. It's a lifesaver when things just aren't working like you expect.
+- [Luke](https://code.google.com/p/luke/) - Lucene.NET is an incredibly performant, open source search engine ported from the Java world. Luke is an essential tool for browsing the underlying indexes and documents as well and for troubleshooting queries.
 
 ### Visual Studio Add-Ins
 
 - [Productivity Power Tools](https://visualstudiogallery.msdn.microsoft.com/dbcb8670-889e-4a54-a226-a48a15e4cace) - Think of this as the developer preview of new Visual Studio features. A must-have in my opinion.
 - [NuGet Package Manager](https://www.nuget.org/) - You're not getting far with modern .NET development without NuGet.
 - [ReSharper](https://www.jetbrains.com/resharper/) - JetBrains makes great stuff and while there are alternatives, ReSharper's tools make life a LOT easier.
-- [Kaxaml](http://www.kaxaml.com/) - If you're doing any WPF work then Kaxaml is a great tool to have in your bag. Think of it as a notepad for XAML.
-- [Snoop](http://snoopwpf.codeplex.com/) - If you need to dig into running XAML there's no better way to do it than with Snoop. It's a lifesaver when things just aren't working like you expect.
-- [Luke](https://code.google.com/p/luke/) - Lucene.NET is an incredibly performant, open source search engine ported from the Java world. Luke is an essential tool for browsing the underlying indexes and documents as well and for troubleshooting queries.
 
 ### Web Stuff
 
