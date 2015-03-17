@@ -12,6 +12,8 @@ tags:
 
 Years ago [Scott Hanselman](http://www.hanselman.com) put together his [Ultimate Developer and Power Users Tool List for Windows](http://www.hanselman.com/blog/ScottHanselmans2014UltimateDeveloperAndPowerUsersToolListForWindows.aspx) and, to his credit, he's kept it up-to-date. Riffing off his list (and the lists of those that came well before), here is my own. Of course, I use a MacBook as my primary OS and run Windows in a virtual machine and SSH into an Amazon EC2 instance of CentOS Linux every day. As such, my list is a little different. Don't worry Windows fans! There's some good stuff in here for you, too.
 
+## Last Updated: 2015-03-17 01:03 PM
+
 ### Life Changers
 
 - [Parallels](https://www.parallels.com/products/desktop/) - This is by far the best virtualization software I've used. Sure, you can get VirtualBox for free and, well, VMWare probably has something, but I don't think either one can touch Parallels.
@@ -31,6 +33,8 @@ Years ago [Scott Hanselman](http://www.hanselman.com) put together his [Ultimate
 - [Patterns](http://krillapps.com/patterns/) - Got a problem? Use regular expressions! Now you've got two problems! Okay, so when you do need to assemble or debug complex regex, Patterns is a great option.
 - [Changes](http://martiancraft.com/products/changes.html) - Finding a great diff tool for OS X is surprisingly challenging (and potentially expensive). I haven't used it much, but Changes holds promise.
 - [WebStorm](https://www.jetbrains.com/webstorm/) - JetBrains puts out some really nice, language-specific IDE's and WebStorm is no exception. For straight-up JavaScript work, WebStorm is a winner.
+- [ColorSnapper](http://www.colorsnapper.com/) - If you do any web or graphics work, a color picker is invaluable. ColorSnapper is an efficient and free option that I really like.
+- [Dash](http://kapeli.com/dash) - RTFM is the name of the game with this great app. With TONS of supported documentation libraries (docsets), you can find help with nearly anything REALLY fast. When you tune it up with Alfred integration, you've got a near-instant, screaming fast way to get help on almost anything.
 
 ### Dotfiles!
 
