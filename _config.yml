@@ -10,3 +10,7 @@ paginate_path: "page:num"
 markdown: rdiscount
 permalink: pretty
 highlighter: pygments
+
+syntax-highlighting:
+  enabled : true
+  css: syntax.css
