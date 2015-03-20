@@ -13,7 +13,7 @@ Recently I was faced with a problem I've never encountered before. I needed to d
 
 Of course, we all know that RavenDB embraces the "eventual consistency" notion. That means that RavenDB *users* also have to embrace it. Okay, that's no problem, but when you're in the midst of a migration and you need to be sure that **all** of the documents are gone before you perform a bulk insert? Here's the (pseudo) code I started with:
 
-{% highlight csharp %}
+```csharp
 public override void Up()
 {
     base.Up();
@@ -39,7 +39,7 @@ public override void Up()
         }
     }
 }
-{% endhighlight %}
+```
 
 So what's the problem? Well, the DeleteByIndex call will throw an exception if the RavenDB index is stale and
 that puts a screeching halt to your migration. Ouch! Of course my next move was to research. There is an IndexQuery option that allows for stale indexes called **allowStale** as such:
