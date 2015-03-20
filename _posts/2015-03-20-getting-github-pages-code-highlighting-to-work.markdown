@@ -14,22 +14,23 @@ The only significant challenge that I've had with GitHub Pages and Jeykll was ge
 
 ## The Configuration
 
-**_config.yml**
+First, here's what my **_config.yml** file looks like:
+
 ```yaml
-    name: "My Blog"
-    description: ""
-    url: "http://myblog.com"
+name: "My Blog"
+description: ""
+url: "http://myblog.com"
 
-    paginate: 4
-    paginate_path: "page:num"
+paginate: 4
+paginate_path: "page:num"
 
-    markdown: redcarpet
-    permalink: pretty
-    highlighter: pygments
+markdown: redcarpet
+permalink: pretty
+highlighter: pygments
 
-    syntax-highlighting:
-      enabled : true
-      css: syntax.css
+syntax-highlighting:
+  enabled : true
+  css: syntax.css
 ```
 
 Of course, your config will be different, but the important bits are using **redcarpet** for the markdown engine and **pygments** as the highlighter. Honestly, I'm not sure if the syntax-highlighting section is necessary and I've been too lazy to test it.
