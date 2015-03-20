@@ -10,13 +10,13 @@ tags:
 
 Yesterday I ran into a little problem after installing Ruby and RubyDev via Chocolatey on my Windows virtual machine. Here's the command that was giving me trouble:
 
-```bash
+```bashsession
     C:\Users\Greg>gem install bundler
 ```
 
 Which returned this error:
 
-```bash
+```bashsession
     ERROR:  Could not find a valid gem 'bundler' (>= 0), here is why:
               Unable to download data from https://rubygems.org/ - SSL_connect returned=1 er
     =0 state=SSLv3 read server certificate B: certificate verify failed (https://api.rubygem
