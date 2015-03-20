@@ -7,7 +7,7 @@ url: "http://blog.gregmajor.com"
 paginate: 4
 paginate_path: "page:num"
 
-markdown: rdiscount
+markdown: redcarpet
 permalink: pretty
 highlighter: pygments
 

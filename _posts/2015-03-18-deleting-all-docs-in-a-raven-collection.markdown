@@ -13,33 +13,33 @@ Recently I was faced with a problem I've never encountered before. I needed to d
 
 Of course, we all know that RavenDB embraces the "eventual consistency" notion. That means that RavenDB *users* also have to embrace it. Okay, that's no problem, but when you're in the midst of a migration and you need to be sure that **all** of the documents are gone before you perform a bulk insert? Here's the (pseudo) code I started with:
 
-    {% highlight csharp %}
-    public override void Up()
-    {
-        base.Up();
+{% highlight csharp %}
+public override void Up()
+{
+    base.Up();
 
-        var fooBars = new List(...);
+    var fooBars = new List(...);
 
-        var operation = documentStore.DatabaseCommands
-            .DeleteByIndex("Raven/DocumentsByEntityName", new IndexQuery()
-                {
-                    Query = "Tag:FooBars"
-                });
-
-        operation.WaitForCompletion();
-
-        using (var bulkInsert = documentStore.BulkInsert(options: new BulkInsertOptions
+    var operation = documentStore.DatabaseCommands
+        .DeleteByIndex("Raven/DocumentsByEntityName", new IndexQuery()
             {
-                CheckForUpdates = true
-            }))
+                Query = "Tag:FooBars"
+            });
+
+    operation.WaitForCompletion();
+
+    using (var bulkInsert = documentStore.BulkInsert(options: new BulkInsertOptions
         {
-            foreach (var fooBar in fooBars)
-            {
-                bulkInsert.Store(fooBar, fooBar.Id);
-            }
+            CheckForUpdates = true
+        }))
+    {
+        foreach (var fooBar in fooBars)
+        {
+            bulkInsert.Store(fooBar, fooBar.Id);
         }
     }
-    {% endhighlight %}
+}
+{% endhighlight %}
 
 So what's the problem? Well, the DeleteByIndex call will throw an exception if the RavenDB index is stale and
 that puts a screeching halt to your migration. Ouch! Of course my next move was to research. There is an IndexQuery option that allows for stale indexes called **allowStale** as such:
