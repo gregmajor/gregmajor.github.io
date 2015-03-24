@@ -104,3 +104,59 @@ Not only does this solution knock out a LOT of complicated retry code, but it's 
 It still seems a little strange to me that there's not a way to say, _"Hey, RavenDB! Nuke all the documents in this collection and, if the indexes are stale then I'll wait."_ Since I'm operating with the DatabaseCommands object it seems like waiting for consistency would be built in. Either way, I'm just glad to have a solution that feels (more) right even with the assumed risk.
 
 Have you run into this problem? How did *you* solve it? Hit me up on Facebook or Twitter and let me know!
+
+### UPDATE: 2015-03-25
+
+Remember a couple of paragraphs ago when I said that I was counting on RavenDB to eventually become consistent? Well, I ran into a case almost immediately where it doesn't. My original solution does in fact choke and so I had to tweak a little bit. This is a much better solution:
+
+```csharp
+const string indexName = "FooBar/DeleteAllDocumentsIndex";
+
+public override void Up()
+{
+    CreateTemporaryIndex();
+    WaitForIndexConsistency();
+    DeleteAllDocuments();
+    WaitForIndexConsistency();
+    DeleteTemporaryIndex();
+    CreateNewDocuments(documents);
+}
+
+private void CreateTemporaryIndex()
+{
+    documentStore.DatabaseCommands.PutIndex(indexName, new IndexDefinitionBuilder<FooBar>
+    {
+        Map = documents => documents.Select(entity => new { })
+    });
+}
+
+private void WaitForIndexConsistency()
+{
+    var retryCount = 0;
+
+    var waitForRavenConsistency = new Action(
+        delegate
+        {
+            while (documentStore.DatabaseCommands.GetStatistics().StaleIndexes.Contains(indexName))
+            {
+                retryCount++;
+                Console.WriteLine("[+] The {0} index is stale... retry {1} in 3 seconds", indexName, retryCount);
+                Thread.Sleep(3000);
+            }
+        });
+
+    waitForRavenConsistency.Invoke();
+}
+
+private void DeleteAllDocuments()
+{
+    documentStore.DatabaseCommands.DeleteByIndex(indexName, new IndexQuery());
+}
+
+private void DeleteTemporaryIndex()
+{
+    documentStore.DatabaseCommands.DeleteIndex(indexName);
+}
+```
+
+With this solution you **should** have a reasonable shot at consistency since the index is focused on a single type. Now, if you're constantly writing to that collection while you're trying to delete everything then, well... don't!
