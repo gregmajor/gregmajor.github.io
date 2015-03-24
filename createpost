@@ -1,0 +1,38 @@
+#!/bin/bash
+
+# A little helper to create new blog posts using today's date and a template.
+
+title=new-post
+posttype=plain
+templateFolder=_drafts
+postsFolder=_posts
+
+function usage
+{
+    echo "usage: createpost [[[-t title] [-p posttype]] | [-h]]"
+}
+
+while [ "$1" != "" ]; do
+    case $1 in
+        -t | --title )          shift
+                                title=$1
+                                ;;
+        -p | --posttype )       shift
+                                posttype=$1
+                                ;;
+        -h | --help )           usage
+                                exit
+                                ;;
+        * )                     usage
+                                exit 1
+    esac
+    shift
+done
+
+filename=$(date +%Y-%m-%d)-${title}.markdown
+
+cp ${templateFolder}/${posttype}.markdown ${postsFolder}/$filename
+
+echo "Post Type:" $posttype
+echo "    Title:" $title
+echo " Filename:" ${postsFolder}"/"$filename
