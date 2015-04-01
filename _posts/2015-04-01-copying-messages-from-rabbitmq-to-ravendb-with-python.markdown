@@ -11,7 +11,7 @@ tags:
 
 Today I found myself needing to grab a copy of the messages in a [RabbitMQ](https://www.rabbitmq.com/) queue. After a few minutes of deliberation, I decided a quick and dirty way would be to use the [REST API provided by RabbitMQ](http://hg.rabbitmq.com/rabbitmq-management/raw-file/rabbitmq_v3_3_4/priv/www/api/index.html) to grab the messages and the [REST API provided by RavenDB](http://ravendb.net/docs/article-page/3.0/http/welcome) to shove them in to [RavenDB](http://ravendb.net). While it's perhaps not the most elegant solution, it is straight-forward and simple.
 
-'''python
+```python
 import sys
 import json
 import requests
@@ -44,7 +44,7 @@ def dumpmessage():
             sys.exit('ERROR (' + str(raven_response.status_code) + '): ' + raven_response.text)
 
 dumpmessage()
-'''
+```
 
 The code itself is pretty easy to follow. In a nutshell:
 
