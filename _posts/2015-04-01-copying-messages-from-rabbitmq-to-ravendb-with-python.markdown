@@ -31,6 +31,10 @@ def dumpmessage():
 
     rabbit_response = requests.post(rabbit_url, data=rabbit_request_json, headers=rabbit_request_headers)
 
+    if rabbit_response.status_code != 201:
+        pprint.pprint(rabbit_response.status_code)
+        sys.exit('ERROR (' + str(rabbit_response.status_code) + '): ' + rabbit_response.text)
+
     documents = rabbit_response.json()
 
     for document in documents:
@@ -51,9 +55,11 @@ The code itself is pretty easy to follow. In a nutshell:
 1. Set up the RabbitMQ REST API request
 2. Set up the RavenDB REST API request
 3. Make a POST to RabbitMQ (in my case I'm limiting to 1000 and re-queuing) using [Requests](http://docs.python-requests.org/en/latest/)
-4. Snag the JSON from the response (note that I should check for the HTTP response code, but I don't)
-5. Iterate through each item and use the [JSON encoder and decoder](https://docs.python.org/2/library/json.html) in Python to turn the dictionary into a JSON string
-6. Make a POST to RavenDB passing in the JSON serialized document
-7. Check for an error and stop if something goes wrong
+4. Snag the JSON from the response
+5. Check for an error and stop if something went wrong
+6. Iterate through each item and...
+    1. Use the [JSON encoder and decoder](https://docs.python.org/2/library/json.html) in Python to turn the dictionary into a JSON string
+    2. Make a POST to RavenDB passing in the JSON serialized document
+    3. Check for an error and stop if something went wrong
 
 In about 30 lines of code (and it could be made shorter), I got the job done. Granted, it's not something everyone is likely to encounter, but it does demonstrate the power and usefulness of REST API's and a language like Python.
