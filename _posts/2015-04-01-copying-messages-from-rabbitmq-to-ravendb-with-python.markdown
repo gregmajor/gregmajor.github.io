@@ -31,7 +31,7 @@ def dumpmessage():
 
     rabbit_response = requests.post(rabbit_url, data=rabbit_request_json, headers=rabbit_request_headers)
 
-    if rabbit_response.status_code != 201:
+    if rabbit_response.status_code != 200:
         pprint.pprint(rabbit_response.status_code)
         sys.exit('ERROR (' + str(rabbit_response.status_code) + '): ' + rabbit_response.text)
 
@@ -63,3 +63,7 @@ The code itself is pretty easy to follow. In a nutshell:
     3. Check for an error and stop if something went wrong
 
 In about 30 lines of code (and it could be made shorter), I got the job done. Granted, it's not something everyone is likely to encounter, but it does demonstrate the power and usefulness of REST API's and a language like Python.
+
+### UPDATE 2015-04-02
+
+The above code works, but if you want a better version check out [RabbitToRaven](https://github.com/gregmajor/RabbitToRaven) which is a bit nicer implementation.
