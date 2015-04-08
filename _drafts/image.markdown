@@ -1,13 +1,12 @@
 ---
 layout: post_image
-title:  "Do you think water moves fast!"
-date:   2010-02-03 
+title: "Do you think water moves fast!"
+date: 2010-01-22 01:30:52
+image_file: "blog/01.jpg"
 
 tags:
 - blog
 - design
-
-image_file : "blog/01.jpg"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.

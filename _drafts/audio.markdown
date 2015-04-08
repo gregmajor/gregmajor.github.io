@@ -1,7 +1,7 @@
 ---
 layout: post_audio
-title:  "This is a sample soundcloud audio post"
-date:   2013-08-12 01:30:52
+title: "This is a sample soundcloud audio post"
+date: 2013-08-12 01:30:52
 
 tags:
 - theme

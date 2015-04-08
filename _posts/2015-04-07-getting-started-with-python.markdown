@@ -1,7 +1,8 @@
 ---
-layout: post_simple
-title:  "Getting Started with Python"
-date:   2015-04-08
+layout: post_image
+title: "Getting Started with Python"
+date: 2015-04-08
+image_file: "blog/getting-started-with-python.jpg"
 
 tags:
 - python

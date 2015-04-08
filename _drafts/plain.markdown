@@ -1,7 +1,7 @@
 ---
 layout: post_simple
-title:  "This is a pure lorem ipsum post!"
-date:   2012-02-09 
+title: "This is a pure lorem ipsum post!"
+date: 2010-01-22 01:30:52
 
 tags:
 - theme

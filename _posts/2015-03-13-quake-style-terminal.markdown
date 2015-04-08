@@ -2,7 +2,7 @@
 layout: post_image
 title: "Quake Style Terminal"
 date: 2015-03-13
-image_file : "blog/quake-style-console.jpg"
+image_file: "blog/quake-style-console.jpg"
 
 tags:
 - Windows

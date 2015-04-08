@@ -1,7 +1,7 @@
 ---
 layout: post_video
-title:  "Just another youtube video post"
-date:   2010-01-22 01:30:52
+title: "Just another youtube video post"
+date: 2015-01-22 01:30:52
 
 tags:
 - blog
