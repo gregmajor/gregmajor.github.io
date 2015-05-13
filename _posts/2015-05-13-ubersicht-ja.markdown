@@ -14,5 +14,5 @@ With a new-found clean desktop, I started exploring widgets again. Windows users
 
 Enter [Übersicht](http://tracesof.net/uebersicht/)! Like Rainmeter and GeekTool, Übersicht lets you add widgets to your desktop. Unlike the other tools, however, Übersicht lets you build HTML5 and CoffeeScript (or plain JavaScript) widgets. With this ability, it's relatively easy to create great looking widgets tailored exactly how you want.
 
-You can [get widgets here](http://tracesof.net/uebersicht-widgets/). I've also created and submitted my first widget which is a process bar that is meant to compliment Coby Chapple's nice [Memory Bar Widget](https://github.com/cobyism/ubersicht-memory-bar).
+You can [get widgets here](http://tracesof.net/uebersicht-widgets/). I've also created and submitted [my first widget](https://github.com/gregmajor/ubersicht-widgets) which is a process bar that is meant to compliment Coby Chapple's nice [Memory Bar Widget](https://github.com/cobyism/ubersicht-memory-bar).
 
