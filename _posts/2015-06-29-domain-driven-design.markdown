@@ -10,4 +10,4 @@ tags:
 - design
 ---
 
-![Alt text](/blog/ddd-comic.png "Domain Driven Design comic")
+![Domain Driven Design comic]({{ site.url }}/blog/ddd-comic.png)
