@@ -10,4 +10,4 @@ tags:
 - design
 ---
 
-![Domain Driven Design comic]({{ site.url }}/blog/ddd-comic.png)
+![Domain Driven Design comic](img/blog/ddd-comic.png)
