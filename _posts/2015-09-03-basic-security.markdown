@@ -1,5 +1,5 @@
 ---
-layout: post_simple
+layout: post_image
 title: "Basic Security"
 date: 2015-09-02 11:28:00
 image_file: "blog/basic-security.jpg"
