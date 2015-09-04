@@ -36,7 +36,7 @@ There's just no good reason not to install [Adblock Plus](https://adblockplus.or
 
 ## Use a Password Manager
 
-Using one password (even a "secure" one) for every website you visit is just really terrible idea. If it's compromised then it's not a terribly difficult task for bad guys to use it in other places, too. Most password managers are sold with the idea that you don't have to remember passwords and they'll auto-fill login forms. The true value, however, is that you can generate a unique and VERY strong password for each and every site and you'll only need to remember your master passphrase.
+Using one password (even a "secure" one) for every website you visit is just a really terrible idea. If it's compromised then it's not a terribly difficult task for bad guys to use it in other places, too. Most password managers are sold with the idea that you don't have to remember passwords and they'll auto-fill login forms. The true value, however, is that you can generate a unique and VERY strong password for each and every site and you'll only need to remember your master passphrase.
 
 You've got a few great options that are very popular including [LastPass](https://lastpass.com/), [Dashlane](https://www.dashlane.com/), and [1Password](https://agilebits.com/onepassword). I've been using LastPass for years, but you can't really go wrong with any of these.
 
