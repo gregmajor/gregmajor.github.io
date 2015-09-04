@@ -12,9 +12,9 @@ tags:
 
 # Overview
 
-Let's face it, most of us don't put enough emphasis on day-to-day online privacy and security. We're just happy when we have a decent wireless connection and our favorite browser with all the bells and whistles. The unfortunate truth, however, is that we're living in a world where personal privacy and online security are serious concerns. The trouble is that most people don't know where to begin. Since you seem like a nice person so I'm going to suggest a few things you can do to make your online world just a bit safer.
+Let's face it, most of us don't put enough emphasis on day-to-day online privacy and security. We're just happy when we have a decent wireless connection and our favorite browser with all the bells and whistles. The unfortunate truth, however, is that we're living in a world where personal privacy and online security are serious concerns. The trouble is that most people don't know where to begin. Here are a few things you can do to make your online travels just a little bit (or a whole lot) safer.
 
-NOTE: These aren't in any particular order. I employ some combination of all of these every day. I've tried to keep each one brief so that you can read them all and decide what you feel like is important.
+These tips aren't in any particular order. I employ some combination of each of these every day. I've tried to keep each one brief so that you can read them all and decide what you feel like is important.
 
 ## Disable Discovery and Sharing
 
@@ -62,25 +62,27 @@ First, head over to [Panopticlick](https://panopticlick.eff.org/) and click the 
 
 Ugh. Cookies. They're a necessary evil on today's web. Basically, a cookie is a small bit of data put on your computer by a web server. Generally speaking, first-party cookies are reasonably okay(ish). However, third-party cookies are our concern here. Before we go further, however, let me explain this a bit more.
 
-See. a "first-party" cookie is one that is associated with a resource that is requested from the same domain. Any cookie that is associated with a resource that is not from the same domain is a "third-party" cookie. What's important to note here is that there's no difference other than this context. A cookie is just a cookie, but depending on what domain you're accessing the context can change. This is how a "first-party" cookie can become a "third-party" cookie depending on the domain you're visiting.
+See, a "first-party" cookie is one that is associated with a resource that is requested from the same domain. Any cookie that is associated with a resource that is not from the same domain is a "third-party" cookie. What's important to note here is that there's no difference other than the context. A cookie is just a cookie, but depending on what domain you're accessing the context can change. This is how a "first-party" cookie can become a "third-party" cookie depending on the domain you're visiting.
 
 The reason we want to block third-party cookies is that they rarely serve any purpose other than to track you. Fortunately, it's dead-simple to make that nasty business stop. Just do a quick search for "disable third party cookies" and the name of your preferred browser and follow the instructions. Done and done!
 
 ## Encrypt DNS Queries
 
-The Domain Name System (DNS) has an important job. It turns domain names such as google.com into IP addresses such as 216.58.218.206. It's great and it's a big part of how the Internet works. However, there's nothing stopping that DNS server from keeping that information which means that there's a record of every site you attempt to visit. No big deal? What if I told you that most people don't realize that the default DNS server is often the one operated by their provider (hint: Comcast, AT&T, and so forth). They don't need to know where you're going, right?
+The Domain Name System (DNS) has an important job. It turns domain names such as google.com into IP addresses such as 216.58.218.206. It's great and it's a big part of how the Internet works. However, there's nothing stopping that DNS server from keeping that information which means that there's a record of every site you attempt to visit. No big deal you say? What if I told you that most people don't realize that the default DNS server is often the one operated by their provider (hint: Comcast, AT&T, and so forth) and they absolutely track your DNS request history.
 
 I've used [OpenDNS](https://opendns.com/) for many years. They offer a nice little tool called [DNSCrypt](https://www.opendns.com/technology/dnscrypt/) that will encrypt DNS traffic more or less the same as HTTPS encrypts web traffic. It's open source, free, and another great step toward privacy and security.
 
 ## Use a VPN
 
-A virtual private network (VPN) is essentially a private network available via a public network. It lets you use a public network like the free WiFi at your local coffee shop to connect to a private network. I won't bore you with the details of tunneling and encryption. Suffice it to say that you _really_ should be using one if you're connecting to a network that you don't have 100% control of.
+A virtual private network (VPN) is essentially a private network available via a public network. It lets you use a public network like the free WiFi at your local coffee shop to connect to a private network. I won't bore you with the details of tunneling and encryption. Suffice it to say that you _really_ should be using one if you're connecting to a network that you don't have 100% control over.
 
-Personally, I run my own VPN server, but you don't have to. There are a LOT of online services that you can sign up for such as [Private Internet Access](https://www.privateinternetaccess.com/pages/buy-vpn/), [TorGuard](https://torguard.net/), [IPVanish](https://www.ipvanish.com/?a_aid=start), and [IVPN](https://www.ivpn.net/).
+Personally, I run my own VPN server, but you don't have to go through all that trouble. There are a LOT of online services that you can sign up for such as [Private Internet Access](https://www.privateinternetaccess.com/pages/buy-vpn/), [TorGuard](https://torguard.net/), [IPVanish](https://www.ipvanish.com/?a_aid=start), and [IVPN](https://www.ivpn.net/).
 
 ## Use an SSH SOCKS Proxy
 
 Okay, this is probably getting slightly outside the realm that most people are comfortable with, but using an SSH-enabled server you _can_ encrpyt your web traffic and keep your data from prying eyes. Basically, the idea is that your local machine will send its requests to a proxy server via SSH. This means that the traffic between you and the proxy is encrypted and therefore nobody knows what you're doing. It's a matter of connecting via SSH to a proxy server and you configure your web browser to send traffic to that proxy. From that point on you're handing off web requests to the proxy which, in turn, communicates with the Internet and the sends you the result back.
+
+I have an Amazon AWS instance running CentOS that happily serves as my proxy when I need it. It's cheap, reasonably fast, and a handy tool to have available when I need to work my way around corporate filters or I just want some extra redirection.
 
 ## Use Encrypted Instant Messaging Apps
 
@@ -90,10 +92,16 @@ Is it as convienent as Google Talk or Facebook Messenger? No. If you care about 
 
 Nobody likes the hassle of yet another email account, but when it comes to privacy we have to make tradeoffs. I keep my "trash" email which is what I use for anything I wouldn't care about being in the public domain. For my truly private email, however, I like [ProtonMail](https://protonmail.ch/). Alternatives include [SCRYPTmail](https://scryptmail.com/login) and [Tutanota](https://tutanota.com/). Be patient, however, as this is still an emergent area and most services have some pretty rough edges when compared to less secure options such as GMail and the like.
 
+## Use a Security-Oriented Live Operating System
+
+If you're in a truly hostile network environment, consider employing a live operating system with security at its very core. A live operating system is one that you can install to a DVD or USB drive and boot your computer with. You use you computer's hardware, but the operating system and software are isolated on that media.
+
+A very popular and security-minded live operating system is [Tails](https://tails.boum.org/) which stands for The Amnesic Incognito Live System. Download it, install it to a DVD or USB drive, boot off of it, and now all of your Internet traffic is routed through the Tor network and no data is stored on your computer at all.
+
 # Summary
 
 Twenty years ago getting online was a bit of a chore. It because much easier of course, but now we're coming full circle in that it takes extra effort on our part to be secure. Most people either don't know how to keep their data private and secure their computers. Worse yet, may people simply trust that the big names on the web will do the right thing and keep them safe. This is in spite of the almost daily headlines about security breaches and data leaks as well as stories from friends and neighbors about the horrors of identity theft.
 
-Complacency is our greatest vulnerability as an online community. The bad guys rely on the fact that most users are complacent about security and most companies tend to favor sexy new features rather than acting as responsible custodians of information. I hope these tips will get you thinking about how you use the Internet and take action to protect yourself.
+Complacency is our greatest vulnerability as an online community. The bad guys rely on the fact that most users are complacent about security and most companies tend to favor sexy new features rather than acting as responsible custodians of information. I hope these tips will get you thinking about how you use the Internet and take action to protect yourself. Better yet, why not pay a visit to that friend or relative that isn't as uber l337 as you are and help them out?
 
 Questions? Suggestions? Corrections? Hit me up!
