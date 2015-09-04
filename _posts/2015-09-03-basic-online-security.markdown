@@ -1,8 +1,8 @@
 ---
 layout: post_image
-title: "Basic Security"
+title: "Basic Online Security"
 date: 2015-09-02 11:28:00
-image_file: "blog/basic-security.jpg"
+image_file: "blog/basic-online-security.jpg"
 
 tags:
 - security
@@ -100,7 +100,7 @@ A very popular and security-minded live operating system is [Tails](https://tail
 
 # Summary
 
-Twenty years ago getting online was a bit of a chore. It because much easier of course, but now we're coming full circle in that it takes extra effort on our part to be secure. Most people either don't know how to keep their data private and secure their computers. Worse yet, may people simply trust that the big names on the web will do the right thing and keep them safe. This is in spite of the almost daily headlines about security breaches and data leaks as well as stories from friends and neighbors about the horrors of identity theft.
+Twenty years ago getting online was a bit of a chore. It became much easier of course, but now we're coming full circle in that it takes extra effort on our part to be secure. Most people either don't know how to keep their data private and secure their computers. Worse yet, may people simply trust that the big names on the web will do the right thing and keep them safe. This is in spite of the almost daily headlines about security breaches and data leaks as well as stories from friends and neighbors about the horrors of identity theft.
 
 Complacency is our greatest vulnerability as an online community. The bad guys rely on the fact that most users are complacent about security and most companies tend to favor sexy new features rather than acting as responsible custodians of information. I hope these tips will get you thinking about how you use the Internet and take action to protect yourself. Better yet, why not pay a visit to that friend or relative that isn't as uber l337 as you are and help them out?
 
