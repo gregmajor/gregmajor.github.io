@@ -1,7 +1,8 @@
 ---
-layout: post_simple
+layout: post_image
 title: "How I Structure Unit Tests"
 date: 2015-12-9 02:04:00
+image_file: "blog/unit-tests.jpg"
 
 tags:
 - programming
