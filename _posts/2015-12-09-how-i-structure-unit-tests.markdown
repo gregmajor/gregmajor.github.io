@@ -9,8 +9,6 @@ tags:
 - unit testing
 ---
 
-# How I Structure Unit Tests
-
 There are likely as many conventions for unit test structure as there are programmers. However, for the past few years I've used a slightly modified version of one I found in Phil Haack's [Structuring Unit Tests blog post](http://haacked.com/archive/2012/01/02/structuring-unit-tests.aspx/). It goes like this:
 
 ## The Pattern
