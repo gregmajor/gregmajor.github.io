@@ -81,4 +81,4 @@ Everybody has their list of software and tools they like to use and I'm certainl
 
 ## BONUS: Dotfiles!
 
-Dotfiles are the preferences and settings for your machine. Frequently these are located in your home directory and have names like .bashrc and .bash_profile. Here's a link to my personal dotfile repository on GitHub. If you don't already have your own dotfile repository, you can clone this and have a good place to start.
+Dotfiles are the preferences and settings for your machine. Frequently these are located in your home directory and have names like .bashrc and .bash_profile. [Here's a link to my personal dotfile repository on GitHub](https://github.com/gregmajor/dotfiles). If you don't already have your own dotfile repository, you can clone this and have a good place to start.
