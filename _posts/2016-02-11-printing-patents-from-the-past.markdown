@@ -10,8 +10,6 @@ tags:
 - education
 ---
 
-# Introduction
-
 Recently I discovered a patent for an invention that I've personally never seen before and is almost 100 years old. I'm using cutting-edge technology to bring that invention to life. This article seeks to share the experience with the All-Stars at Askew Elementary in Houston, TX.
 
 # So, What is a Patent?
