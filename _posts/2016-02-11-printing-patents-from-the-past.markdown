@@ -12,9 +12,9 @@ tags:
 
 # Introduction
 
-I'm writing this post for the awesome kids at Askew Elementary in Houston, TX to go along with their custom 3D printed bookmarks.
+Recently I discovered a patent for an invention that I've personally never seen before and is almost 100 years old. I'm using cutting-edge technology to bring that invention to life. This article seeks to share the experience with the All-Stars at Askew Elementary in Houston, TX.
 
-# What is a Patent?
+# So, What is a Patent?
 
 A patent is something a government gives to an inventor for a limited period of time in exchange for details about what they've invented. In other words, the inventor is granted the right to be the only one that can control what they have invented as long as they tell the government what it is they have invented.
 
@@ -34,19 +34,19 @@ On May 15, 1919 Jean J. Vanderveer filed for a patent with the U.S. government f
 
 Here's what they wrote to describe their invention:
 
-```
-To all whom it may concern:
+<blockquote>
+<p>To all whom it may concern:</p>
 
-Be it known that I, JEAN J. VANDERVEER, citizen of the United States, residing at Brattleboro, in the county of Windham and State of Vermont, have invented certain new and useful Improvements in Book marks; and I do declare the following to be a full, clear, and exact description of the invention, such as will enable others skilled in the art to which it appertains'to make and use the same.
+<p>Be it known that I, JEAN J. VANDERVEER, citizen of the United States, residing at Brattleboro, in the county of Windham and State of Vermont, have invented certain new and useful Improvements in Book marks; and I do declare the following to be a full, clear, and exact description of the invention, such as will enable others skilled in the art to which it appertains'to make and use the same.</p>
 
-My invention has for its object to provide an extremely simple and inexpensive, yet a highly desirable and eflicient book mark which may be quickly and easily applied, cannot accidentally be lost from the book when the latter is closed, and will remain in place even when the book is opened.
-```
+<p>My invention has for its object to provide an extremely simple and inexpensive, yet a highly desirable and eflicient book mark which may be quickly and easily applied, cannot accidentally be lost from the book when the latter is closed, and will remain in place even when the book is opened.</p>
+</blockquote>
 
 Based on the rules enforced at the time, the patent for his bookmark expired on July 13th, 1937. That means that between the time the patent was filed and July 13th, 1937, nobody could make or sell a bookmark like Vanderveer's without their permission. After July 13th, 1937, however, anyone could start to make and sell them. That's what allowed me to use my 3D printer to copy Vanderveer's design, customize it, and print one as a gift for you!
 
 # 3D Printing
 
-Here's what my 3D printer looked like while printing your bookmark:
+Here's what my 3D printer looked like while printing some of Vanderveer's bookmarks (customized with the Askew Elementary name and star):
 
 ![patent](/img/blog/bookmark.jpg)
 
@@ -56,4 +56,4 @@ Here's what my 3D printer looked like while printing your bookmark:
 
 # Summary
 
-Wow! We live in an exciting time where new technology and ideas emerge every day. Just a few years ago bringing a nearly 100 year old object to life with computers and personal 3D printers was virtually unheard of. Today you hold a small part of the future - a future you will be an important part of - in your hands. Enjoy your bookmark!
+Wow! We live in an exciting time where new technology and ideas emerge constantly. Just a few years ago bringing a nearly 100 year old object to life with computers and personal 3D printers was virtually unheard of. Today, it's almost as easy as printing your homework and it gets faster and easier every day! I hope this article inspires you to become an inventor. The future needs _you_!
