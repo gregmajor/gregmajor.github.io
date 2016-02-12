@@ -24,7 +24,7 @@ Now suppose someone else came up with a _very_ similar idea completely on their 
 
 A patent lets you saunter up and tell the government that you came up with the idea first. When you file for a patent, the government will look through their records to ensure that you are indeed the first person with the idea and, if so, they will grant you a patent. From that point until your patent expires, you can prevent other people from using or selling anything that infringes upon or misrepresents your patent.
 
-Don't be sluggish, though! If someone else files for a patent first then _they_ might be granted the patent and, despite the fact you invented your gum scraper about the same time, they could prevent _you_ from using or selling your very own invention! Of course, that that point the only logical thing to do would be to avenge yourself and invent something else!
+Don't be sluggish, though! If someone else files for a patent first then _they_ might be granted the patent and, despite the fact you invented your gum scraper about the same time, they could prevent _you_ from using or selling your very own invention! Of course, at that point the only logical thing to do would be to avenge yourself and invent something else!
 
 # Jean J. Vanderveer's Bookmark
 
@@ -51,3 +51,5 @@ Here's what my 3D printer looked like while printing your bookmark:
 ![patent](/img/blog/bookmark.jpg)
 
 3D printing works by using a computer to control a machine. The machine heats up a spool of plastic and extrudes the molten plastic in a very precise way. Layers of plastic are placed on top of each other until eventually a 3D printed part is formed. This process is also known as "additive manufacturing".
+
+I hope you enjoy your bookmark!
