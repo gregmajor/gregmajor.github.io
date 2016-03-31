@@ -9,8 +9,6 @@ tags:
 - programming
 ---
 
-# Overview
-
 Okay, let's assume you've used version control systems before and perhaps you've even used Git. Great! However, you're still a bit confused about how it all works and what you should be doing. Groovy! That makes you just like every other Git user at some point in their lives. This is a primer (or refresher) on Git.
 
 On the other hand, if you have a complete mastery of when rebasing makes sense and under what circumstances a forced push is useful then TL;DR and move on. Have a nice day. Better yet, send me a pull request on how this could be made better.

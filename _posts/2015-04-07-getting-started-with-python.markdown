@@ -9,8 +9,6 @@ tags:
 - programming
 ---
 
-# Overview
-
 The [Python](https://www.python.org/) language is easy. As a long-time programmer, however, I found it surprisingly difficult to wrap my head around how to do things with Python the "right" way. There are tons of great tutorials out there, but none of them put it all together in a way that really made me feel like I had a complete setup that wouldn't have experienced Python programmers chuckling to themselves.
 
 Hopefully this guide will give you a kick start to learning this great language. If not (or even if it does), I still recommend checking out the official Python documentation and [The Hitchiker's Guide to Python](http://docs.python-guide.org/en/latest/). Both are outstanding references that go into greater detail than I do here.

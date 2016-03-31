@@ -10,8 +10,6 @@ tags:
 - infosec
 ---
 
-# Overview
-
 Let's face it, most of us don't put enough emphasis on day-to-day online privacy and security. We're just happy when we have a decent wireless connection and our favorite browser with all the bells and whistles. The unfortunate truth, however, is that we're living in a world where personal privacy and online security are serious concerns. The trouble is that most people don't know where to begin. Here are a few things you can do to make your online travels just a little bit (or a whole lot) safer.
 
 These tips aren't in any particular order. I employ some combination of each of these every day. I've tried to keep each one brief so that you can read them all and decide what you feel like is important.
